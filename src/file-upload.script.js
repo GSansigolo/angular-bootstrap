@@ -1,4 +1,7 @@
 function upload(formData) {
+    console.log("**************************************")
+    console.log(formData)
+    console.log("**************************************")
     const photos = formData.getAll('photos');
     const promises = photos.map((x) => getImage(x)
         .then(img => ({

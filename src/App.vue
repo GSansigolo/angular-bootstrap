@@ -3,7 +3,7 @@
     <div class="container">
       <!--UPLOAD-->
       <form enctype="multipart/form-data" novalidate v-if="isInitial || isSaving">
-        <h1>Upload images</h1>
+        <h1>Upload file</h1>
         <div class="dropbox">
           <input type="file" multiple :name="uploadFieldName" :disabled="isSaving" @change="filesChange($event.target.name, $event.target.files); fileCount = $event.target.files.length"
             accept="image/*" class="input-file">
@@ -41,8 +41,8 @@
 
 <script>
   // swap as you need
-  import { upload } from './file-upload.fake.service'; // fake service
-  // import { upload } from './file-upload.service';   // real service
+  import { upload } from './file-upload.script.js'; // script
+  // import { upload } from './file-upload.service';   // service
   import { wait } from './utils';
 
   const STATUS_INITIAL = 0, STATUS_SAVING = 1, STATUS_SUCCESS = 2, STATUS_FAILED = 3;
@@ -119,7 +119,7 @@
 
 <style lang="scss">
   .dropbox {
-    outline: 2px dashed grey; /* the dash box */
+    outline: 0px dashed grey; /* the dash box */
     outline-offset: -10px;
     background: lightcyan;
     color: dimgray;
