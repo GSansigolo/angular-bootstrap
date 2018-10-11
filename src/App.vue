@@ -54,7 +54,7 @@
         uploadedFiles: [],
         uploadError: null,
         currentStatus: null,
-        uploadFieldName: 'photos'
+        uploadFieldName: 'uploads'
       }
     },
     computed: {
@@ -92,6 +92,7 @@
             this.uploadError = err.response;
             this.currentStatus = STATUS_FAILED;
           });
+
       },
       filesChange(fieldName, fileList) {
         // handle file changes
@@ -108,6 +109,10 @@
 
         // save it
         this.save(formData);
+        
+        // Tests
+        console.log(fileList)
+        
       }
     },
     mounted() {
