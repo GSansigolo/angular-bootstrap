@@ -1,2 +1,2 @@
 # Data-Aggregation
-Data Aggregation Portal using Vue.js, Node and MongoDB 
+Data Aggregation Portal using Vue.js and Node 
