@@ -1,12 +1,12 @@
 <template>
-  <div class="lisfiles">
-      listfiles
+  <div class="spatialAnalisys">
+      spatialAnalisys
 </div>
 </template>
 
 <script>
 export default {
-  name: 'listfiles',
+  name: 'spatialAnalisys',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

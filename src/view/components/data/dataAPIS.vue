@@ -1,12 +1,12 @@
 <template>
-  <div class="download">
-      download
+  <div class="dataAPIs">
+      dataAPIs
 </div>
 </template>
 
 <script>
 export default {
-  name: 'download',
+  name: 'dataAPIS',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

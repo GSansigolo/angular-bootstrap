@@ -1,12 +1,12 @@
 <template>
-  <div class="filepage">
-      filepage
+  <div class="descrDataset">
+      descrDataset
 </div>
 </template>
 
 <script>
 export default {
-  name: 'filepage',
+  name: 'descrDataset',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

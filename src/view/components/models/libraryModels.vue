@@ -1,12 +1,12 @@
 <template>
-  <div class="document">
-      document
+  <div class="libraryModels">
+      libraryModels
 </div>
 </template>
 
 <script>
 export default {
-  name: 'document',
+  name: 'libraryModels',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
