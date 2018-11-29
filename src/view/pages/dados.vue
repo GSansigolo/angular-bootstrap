@@ -1,12 +1,12 @@
 <template>
-  <div class="notebook">
-      notebook
+  <div class="dados">
+      dados
 </div>
 </template>
 
 <script>
 export default {
-  name: 'notebook',
+  name: 'dados',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

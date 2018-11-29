@@ -3,7 +3,8 @@ import Router from 'vue-router'
 
 import home from '@/view/pages/home'
 import upload from '@/view/pages/upload'
-import notebook from '@/view/pages/notebook'
+import dados from '@/view/pages/dados'
+import modelos from '@/view/pages/modelos'
 
 import filepage from '@/view/components/data/filepage'
 import header from '@/view/components/portal/header'
@@ -29,9 +30,14 @@ export default new Router({
       component: upload
     },
     {
-      path: '/notebook',
-      name: 'notebook',
-      component: notebook
+      path: '/publicacao/:id/dados',
+      name: 'dados',
+      component: dados
+    },
+    {
+      path: '/publicacao/:id/modelos',
+      name: 'modelos',
+      component: modelos
     }
   ]
 })
