@@ -1,0 +1,34 @@
+/* Note there's an existing issue with Bootstrap and ellipsis in media objects */
+/*https://github.com/twbs/bootstrap/issues/15958 */
+/* Text is truncated, but ellipsis aren't shown like they should be */
+
+.text-truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;  
+}
+
+.left{
+    float:left;
+    width:50%;
+    height:100%;
+  }
+  .right{
+    height:100%;
+    width:50%;
+    overflow:hidden;
+  }
+  
+  html, body{
+      height:100%;
+  }
+
+
+  .divAll {
+    height:100%;
+    width:100%;
+  }
+
+  .divPad {
+    padding: 50px 305px 50px 305px;
+  }
