@@ -1,5 +1,4 @@
-# Knowledge Hub
-Knowledge Hub Portal using Vue.js and Node.js
+# knowledgehub
 
 > A Vue.js project
 

@@ -1,34 +1,35 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-//Pages
-import home from '@/view/pages/home'
-import upload from '@/view/pages/upload'
-import dados from '@/view/pages/dados'
-
-//Pages Components
-import header from '@/view/components/portal/header'
-import footer from '@/view/components/portal/footer'
-import listDatasets from '@/view/components/home/listDatasets'
+import home from '@/components/home'
+import about from '@/components/about'
+import research from '@/components/research'
+import upload from '@/components/upload'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
       name: 'home',
-      component: home
+      component:home
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: about
+    },
+    {
+      path: '/research',
+      name: 'research',
+      component: research
     },
     {
       path: '/upload',
       name: 'upload',
       component: upload
-    },
-    {
-      path: '/data',
-      name: 'dados',
-      component: dados
     }
   ]
 })
