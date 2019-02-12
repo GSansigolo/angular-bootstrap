@@ -1,5 +1,5 @@
-# Cloud-IAS
-Data Aggregation Portal using Vue.js and Node.js
+# Knowledge Hub
+Knowledge Hub Portal using Vue.js and Node.js
 
 > A Vue.js project
 
