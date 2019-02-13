@@ -3,7 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import 'bootstrap'; import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'leaflet'; 
+import 'leaflet/dist/leaflet.css'
+import 'vue2-leaflet'
 
 Vue.config.productionTip = false
 

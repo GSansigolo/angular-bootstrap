@@ -19,6 +19,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+</style>
 
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
 
 </style>
