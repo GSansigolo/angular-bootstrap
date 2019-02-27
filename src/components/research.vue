@@ -35,9 +35,8 @@ export default {
     },
     created: function() {
       const that = this
-      axios.get('https://qiita.com/api/v2/items')
+      axios.get('https://qiita.com/api/v2/items') //https://api.myjson.com/bins/8xlfu
         .then(function(response) {
-          console.log(response.data)
           that.items = response.data
         })
     }
