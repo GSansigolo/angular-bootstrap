@@ -42,13 +42,25 @@ export default {
 </script>
 
 <style>
+
+ @import url(http://fonts.googleapis.com/css?family=Merriweather:400);
+ @import url(http://fonts.googleapis.com/css?family=Merriweather:400italic);
+ @import url(http://fonts.googleapis.com/css?family=Merriweather:700);
+ @import url(http://fonts.googleapis.com/css?family=Merriweather:700italic);
+ @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400);
+ @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300);
+ @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300italic);
+ @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400italic);
+ @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:700italic);
+ @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:700);
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family:'Merriweather', serif;
+  font-weight: 700;
+  color: #2A2A2A;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 0px;
 }
-
 </style>

@@ -1,6 +1,5 @@
 <template>
   <div class="research">
-
       <h1>Research</h1>
       <br>
       <input type="search" placeholder="Search" v-model="searchQuery">
@@ -44,6 +43,5 @@ export default {
 </script>
 
 <style scoped>
-
 
 </style>
