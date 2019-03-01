@@ -26,9 +26,7 @@
           </form>
         </div>
       </nav>
-
     <router-view/>
-
   </div>
 
 
@@ -56,11 +54,8 @@ export default {
 
 #app {
   font-family:'Merriweather', serif;
-  font-weight: 700;
   color: #2A2A2A;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 0px;
+  text-align: left;
+  margin: 0px;
 }
 </style>

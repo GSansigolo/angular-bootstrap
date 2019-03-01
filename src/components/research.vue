@@ -1,12 +1,12 @@
 <template>
   <div class="research">
-      <h1>Research</h1>
+      <h2>Research</h2>
       <br>
       <input type="search" placeholder="Search" v-model="searchQuery">
       <br>
       <br>
       <ul>
-        <li v-for="item in filteredItems" :key="item">{{ item.title }}</li>
+        <li v-for="item in filteredItems" :key="item">{{ item.publisher + " (" + item.year + "):  " + item.title }}</li>
       </ul>
 
   </div>
@@ -34,7 +34,7 @@ export default {
     },
     created: function() {
       const that = this
-      axios.get('https://qiita.com/api/v2/items') //https://api.myjson.com/bins/8xlfu
+      axios.get('https://api.myjson.com/bins/xamti')
         .then(function(response) {
           that.items = response.data
         })

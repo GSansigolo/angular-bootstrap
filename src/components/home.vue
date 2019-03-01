@@ -1,7 +1,7 @@
 <template>
   <div class="home">
 
-      <h1>Home</h1>
+      <h2>Home</h2>
       
   </div>
 </template>
@@ -27,7 +27,6 @@ export default {
 
 html, body, #app {
   height: 100%;
-  margin: 0;
 }
 
 </style>
