@@ -18,21 +18,21 @@ Open Data Plataform
         :target: https://github.com/godp/godp/blob/master/LICENSE
 
 
-Open Data Plataform developed using Vue.js with Node.js with Invenio framework. A web application to share and cite research data.::
+Open Data Plataform developed using Vue.js with Node.js with Invenio framework. A web application to share and cite research data
 
-## Build Setup
+## Build Setup::
 
-# install dependencies
-npm install
+# install dependencies::
+npm install::
 
-# serve with hot reload at localhost:8080
-npm run dev
+# serve with hot reload at localhost:8080::
+npm run dev::
 
-# build for production with minification
-npm run build
+# build for production with minification::
+npm run build::
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# build for production and view the bundle analyzer report::
+npm run build --report::
 
 
 Further documentation is available on
