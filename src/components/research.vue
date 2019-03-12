@@ -6,7 +6,7 @@
       <br>
       <br>
       <ul>
-        <li v-for="item in filteredItems" :key="item">{{ item.publisher + " (" + item.year + "):  " + item.title }}</li>
+        <li v-for="item in filteredItems" :key="item">{{ item.metadata.contributors[0].name + ":  " + item.metadata.title }}</li>
       </ul>
 
   </div>
@@ -28,15 +28,16 @@ export default {
       filteredItems: function() {
         var that = this
         return that.items.filter(function(item) {
-          return item.title.indexOf(that.searchQuery) !== -1
+          return item.metadata.title.indexOf(that.searchQuery) !== -1
         })
       }
     },
     created: function() {
       const that = this
-      axios.get('https://api.myjson.com/bins/xamti')
+      axios.get('https://api.myjson.com/bins/hh97m') //https://localhost:5000/api/records/?prettyprint=1')
         .then(function(response) {
-          that.items = response.data
+          that.items = response.data.hits.hits
+          console.log(that.items)
         })
     }
 }

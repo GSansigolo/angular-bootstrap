@@ -1,0 +1,9 @@
+#virtualenv myenv
+
+source myenv/bin/activate
+
+./scripts/bootstrap
+
+./scripts/setup
+
+./script/server
