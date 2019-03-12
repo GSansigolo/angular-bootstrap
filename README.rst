@@ -21,7 +21,6 @@ Open Data Plataform developed using Vue.js with Node.js with Invenio framework. 
 
 ## Build Setup
 
-``` bash
 # install dependencies
 npm install
 
@@ -33,7 +32,7 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
-```
+
 Further documentation is available on
 https://godp.readthedocs.io/
 
