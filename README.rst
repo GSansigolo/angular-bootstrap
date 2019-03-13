@@ -21,18 +21,22 @@ Open Data Plataform
 Open Data Plataform developed using Vue.js with Node.js with Invenio framework. A web application to share and cite research data
 
 Build Setup
-.. codeblock:: javascipt
 
-  # install dependencies
+
+  # install dependencies:
+::
   npm install
 
-  # serve with hot reload at localhost:8080
+  # serve with hot reload at localhost:8080:
+::
   npm run dev
 
-  # build for production with minification
+  # build for production with minification:
+::
   npm run build
 
-  # build for production and view the bundle analyzer report
+  # build for production and view the bundle analyzer report:
+::
   npm run build --report
 
 Further documentation is available on
