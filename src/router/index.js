@@ -6,6 +6,9 @@ import about from '@/components/about'
 import research from '@/components/research'
 import upload from '@/components/upload'
 
+import progBar from '@/components/upload-comp/progress-bar'
+import uploInput from '@/components/upload-comp/upload-input'
+
 Vue.use(Router)
 
 export default new Router({
@@ -29,7 +32,7 @@ export default new Router({
     {
       path: '/upload',
       name: 'upload',
-      component: upload
+      component: upload, progBar, uploInput
     }
   ]
 })

@@ -1,9 +1,12 @@
-#virtualenv myenv
+sudo docker-compose up -d
 
 source myenv/bin/activate
 
-./scripts/bootstrap
+pipenv shell
 
-./scripts/setup
+./scripts/  bootstrap
 
-./script/server
+./scripts/  setup
+
+./script/  server
+

@@ -37,23 +37,24 @@
 export default {
   name: 'App'
 }
+//font-family:'Merriweather', serif;
+// @import url(http://fonts.googleapis.com/css?family=Merriweather:400);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather:400italic);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather:700);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather:700italic);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300italic);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400italic);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:700italic);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:700);
+
 </script>
 
 <style>
 
- @import url(http://fonts.googleapis.com/css?family=Merriweather:400);
- @import url(http://fonts.googleapis.com/css?family=Merriweather:400italic);
- @import url(http://fonts.googleapis.com/css?family=Merriweather:700);
- @import url(http://fonts.googleapis.com/css?family=Merriweather:700italic);
- @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400);
- @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300);
- @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300italic);
- @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400italic);
- @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:700italic);
- @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:700);
 
 #app {
-  font-family:'Merriweather', serif;
   color: #2A2A2A;
   text-align: left;
   margin: 0px;
